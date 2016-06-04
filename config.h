@@ -613,10 +613,10 @@ At this moment you can use this function only with WinGUI 2.3 release. MultiWiiC
     #define LED_FLASHER_PORT PORTC
     #define LED_FLASHER_BIT PORTC2
     //#define LED_FLASHER_INVERT
-    #define LED_FLASHER_SEQUENCE        0b00000000      // leds OFF
-    #define LED_FLASHER_SEQUENCE_ARMED  0b00000101      // create double flashes
-    #define LED_FLASHER_SEQUENCE_MAX    0b11111111      // full illumination
-    #define LED_FLASHER_SEQUENCE_LOW    0b00000000      // no illumination
+    #define LED_FLASHER_SEQUENCE        0b00000101      // create double flashes
+    #define LED_FLASHER_SEQUENCE_ARMED  0b11111111      // full illumination
+    //#define LED_FLASHER_SEQUENCE_MAX    0b11111111      // full illumination
+    //#define LED_FLASHER_SEQUENCE_LOW    0b00000000      // no illumination
 
 
   /*******************************    Landing lights    *********************************/
